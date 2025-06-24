@@ -1,0 +1,5 @@
+@api = http://localhost:5022/api
+@Id = 8c89f1ec-4d2e-4ed5-80d9-8e14754808e5
+
+GET {{api}}/todos/{{Id}}
+Accept: application/json

@@ -1,0 +1,4 @@
+@api = http://localhost:5022/api
+
+GET {{api}}/todos
+Accept: application/json

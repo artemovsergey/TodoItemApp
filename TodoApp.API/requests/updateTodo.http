@@ -1,0 +1,10 @@
+@api = http://localhost:5022/api
+@Id = 4e31f7ab-d46c-4beb-8125-f8f5ef832e81
+PUT {{api}}/todos
+Content-Type: application/json
+
+{
+  "id": "8c89f1ec-4d2e-4ed5-80d9-8e14754808e5",
+  "title": "Проверка!",
+  "isCompleted": true
+}

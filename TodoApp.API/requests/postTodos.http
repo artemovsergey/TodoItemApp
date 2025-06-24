@@ -1,0 +1,9 @@
+@api = http://localhost:5022/api
+
+POST {{api}}/todos
+Content-Type: application/json
+
+{
+  "title": "Проверка",
+  "isCompleted": true
+}
